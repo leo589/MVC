@@ -1,0 +1,22 @@
+{
+    "name": "leonardo/framework",
+    "description": "Framework php para projetos pequenos",
+    "type": "projeto",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leonardo",
+            "email": "leo589gm@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "app/controllers",
+            "App\\Controllers\\Models\\": "app/database/models",
+            "App\\Database\\": "app/database/",
+            "App\\Traits\\": "app/traits/"
+        }
+    }
+}
